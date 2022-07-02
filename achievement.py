@@ -1,4 +1,4 @@
-def get_achievement(dist) -> str:
+def get_achievement(dist: float) -> str:
     """Получить поздравления за пройденную дистанцию."""
     if dist >= 6.5:
         achievement = 'Отличный результат! Цель достигнута.'
